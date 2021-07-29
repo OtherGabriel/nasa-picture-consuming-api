@@ -1,13 +1,15 @@
 // Home page, your dashboard.
 
-import { Navbar } from "../components/Navbar";
-import { Example } from "../components/Example";
+import { Nav } from "../components/NavBar";
+import { Sub } from "../components/SubBar";
+import { Dashboard } from "../components/Dashboard";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Example />
+      <Nav />
+      <Sub />
+      <Dashboard />
     </>
   )
 }
