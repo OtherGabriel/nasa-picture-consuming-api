@@ -4,7 +4,7 @@ export const Room = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   overflow: auto;
   align-items: center;
 `;
