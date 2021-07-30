@@ -8,7 +8,7 @@ import { TextDiv } from "../Templates/Text"
 
 export const Picture = () => {
   const BASE_URL = "https://api.nasa.gov/planetary/apod"
-  const API_KEY = ""
+  const API_KEY = "Ju51OlxMYkQ5ftUdyJA893DQL2HmZcWqyc2l3L0I"
 
   const [ count, setCount ] = useState(10)
   const [ startDate, setStartDate ] = useState("")
